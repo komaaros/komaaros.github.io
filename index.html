@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lipsum</title>
+
+	<meta name="description" content="#">
+	<meta name="keywords" content="#">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css" />
+	 <link rel="stylesheet" type="text/css" href="css/slidebars.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	
+
+
+	<!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>-->
+<script
+			  src="https://code.jquery.com/jquery-1.12.4.min.js"
+			  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+			  crossorigin="anonymous"></script>
+	<script src="js/slidebars.min.js"></script>
+	<script src="js/jquery.bxslider.min.js"></script>
+
+	<script>
+		$(document).ready(function(){
+  			$('.bxslider').bxSlider({
+  				pager: false,
+  				mode: 'fade',
+  				captions: true
+  			});
+  			$('.bxslider1').bxSlider({
+				minSlides: 3,
+				maxSlides: 3,
+				slideWidth: 400,
+				slideMargin: 0,
+				nextSelector: '#slider-next',
+  				prevSelector: '#slider-prev',
+  				pager: false
+			});
+  			
+		});
+	</script>
+	<script>
+		  (function($) {
+		    $(document).ready(function() {
+		      $.slidebars();
+		    });
+		  }) (jQuery);
+	</script>
+</head>
+<body>
+	<div class="sb-slidebar sb-left">
+		<ul>
+			<li><a href="#">home</a></li>
+			<li><a href="#">products</a></li>
+			<li><a href="#">news</a></li>
+			<li><a href="#">about us</a></li>
+			<li><a href="#">contact us</a></li>
+			<div class="clr"></div>
+		</ul>
+	</div>
+	<div id="sb-site">
+		<div class="container main">
+		<span class="sb-toggle-left">togle</span>
+			<header>
+				<div class="grid-3">
+					<img src="images/logo_resized.png" alt="logo">
+				</div>
+				<div class="grid-9">
+					<h1>Lorem ipsum dolor sit amet
+					<p>curabitur urna justo, vehicula ut justo eu, dapibus cursus turpis</p></h1>
+				</div>
+				<div class="clr"></div>
+			</header>
+			<div id="navigation">
+				<nav>
+					<ul>
+						<li><a href="#">home</a></li>
+						<li><a href="#">products</a></li>
+						<li><a href="#">news</a></li>
+						<li><a href="#">about us</a></li>
+						<li><a href="#">contact us</a></li>
+						<div class="clr"></div>
+					</ul>
+				</nav>
+			</div>
+			<div id="main">
+				<div class="grid-6">
+				<h3>Lorem ipsum</h3>
+					<ul class="bxslider">
+						<li><img src="images/animations/01.jpg" title="Lorem ipsum dolorem" alt="animation"></li>
+						<li><img src="images/animations/02.jpg" title="Nam luctus dapibus" alt="animation"></li>
+						<li><img src="images/animations/03.jpg" title="Maecenas condimentum nisi" alt="animation"></li>
+					</ul>
+				</div>
+				<div class="grid-6 right">
+					<img src="images/01.jpg" alt="alt">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam imperdiet tellus in massa commodo tincidunt. Integer in ullamcorper justo. Mauris tincidunt ac neque nec faucibus. Proin eget malesuada ex. Praesent bibendum libero lacinia urna bibendum, vel semper tortor cursus Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam imperdiet tellus in massa commodo tincidunt. Integer in ullamcorper justo. Mauris tincidunt ac neque nec faucibus. Proin eget malesuada ex. </p>
+				</div>
+				<div class="clr"></div>
+				<a class="arrow" href="#">&gt</a><a class="more" href="#">More</a>
+				<div class="clr"></div>
+				<div class="middle">
+					<div class="grid-4">
+						<h2>Latest news</h2>
+						<ul>
+							<li>
+								<p class="left">27 <span>june<span></p>
+								<p class="right"><span>Nullam imperdiet tellus</span>Proin eget malesuada ex. Praesent bibendum libero lacinia urna bibendum</p>
+							</li>
+							<li>
+								<p class="left">26 <span>june<span></p>
+								<p class="right"><span>Vel semper tortor</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit lacinia urna bibendum</p>
+							</li>
+							<li>
+								<p class="left">25 <span>june<span></p>
+								<p class="right"><span>Nullam imperdiet tellus</span>Praesent bibendum libero lacinia urna bibendum libero lacinia urna bibendum</p>
+							</li>
+						</ul>
+					</div>
+					<div class="grid-4">
+						<h2>Who we are?</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam imperdiet tellus in massa commodo tincidunt. Integer in ullamcorper justo. Mauris tincidunt ac neque nec faucibus. Proin eget malesuada ex. Praesent bibendum libero lacinia urna bibendum, vel semper tortor cursus Lorem ipsum dolor sit amet, consectetur adipiscing elit
+						Mauris tincidunt ac neque nec faucibus. Proin eget malesuada ex. Praesent bibendum libero lacinia urna bibendum, vel semper tortor cursus</p>
+						<a class="arrow" href="#">&gt</a><a class="more" href="#">More</a>
+					</div>
+					<div class="grid-4 last">
+						<h2>Contact Us</h2>
+						<ul>
+							<li>
+								<p class="mobile">(023) 455-9031</p>
+							</li>
+							<li>
+								<p class="fax">(023) 455-9031</p>
+							</li>
+							<li>
+								<p class="email">loremipsum@lorem.com</p>
+							</li>
+							<li>
+								<p class="address">927 N LaSalle St, Chicago, IL 60610, United States</p>
+							</li>
+
+						</ul>
+					</div>
+					<div class="clr"></div>
+				</div>
+				<div class="bottom">
+					<p>Korem ipsum</p>
+					<img src="images/01.png" alt="clients">
+					<img src="images/02.png" alt="clients">
+					<img src="images/03.png" alt="clients">
+					<img src="images/04.png" alt="clients">
+					<img src="images/05.png" alt="clients">
+					<img src="images/06.png" alt="clients">
+					<div class="clr"></div>
+				</div>
+			</div>
+			<footer>
+				<img src="images/logo_resized.png">
+				<ul>
+						<li><a href="#">home</a></li>
+						<li><a href="#">products</a></li>
+						<li><a href="#">news</a></li>
+						<li><a href="#">about us</a></li>
+						<li><a href="#">contact us</a></li>
+						<div class="clr"></div>
+				</ul>
+				<p>Copyright &copy 2016 Intermedia solutions &reg All rights reserved</p>
+			</footer>
+		</div>	
+	</div>
+</body>
+</html>

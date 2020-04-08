@@ -1,0 +1,22 @@
+html,body,#sb-site,.sb-slidebar{margin:0;padding:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+html,body{width:100%;overflow-x:hidden}
+html{height:100%}
+body{min-height:100%;position:relative;}
+#sb-site{width:100%;height:100%; min-height:0 !important;position:relative;z-index:1;}
+.sb-slidebar{ width:200px !important;height:100%;overflow-y:auto;position:fixed;top:0;z-index:0;visibility:hidden;background-color:#fff; border-right:1px solid #ccc; padding:0px;}
+.sb-left{left:0}
+.sb-right{right:0}
+html.sb-static .sb-slidebar,.sb-slidebar.sb-static{position:absolute}
+.sb-slidebar.sb-active{visibility:visible}
+.sb-slidebar.sb-style-overlay{z-index:9999}
+.sb-slide,#sb-site,.sb-slidebar{-webkit-transition:-webkit-transform 400ms ease;-moz-transition:-moz-transform 400ms ease;-o-transition:-o-transform 400ms ease;transition:transform 400ms ease;-webkit-transition-property:-webkit-transform,left,right;-webkit-backface-visibility:hidden}
+.sb-hide{display:none}
+
+span.sb-toggle-left {display: block; width:25px; height:23px; background: url("../images/menu.png") center center no-repeat; text-indent:-9999px; padding:7px; margin-left:5px; cursor: pointer; position: absolute; top: 7px; left: 5px;}
+
+
+@media (min-width: 961px) { 
+
+#sb-site {transform: translate(0px) !important;}
+
+}
